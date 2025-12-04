@@ -23,8 +23,13 @@ This project uses real world data and applications to simulate a small library m
 | test.py | From [reference]() |
 
 # References
-* Item 1
-* Item 2
+
+sqllite tutorial #1 hyperlink
+Codecademy #4 hyperlink
+Lab5 DCP (parsing)
+parsing tutorial #5 hyperlink
+Lab4
+Lab 10
 
 # What I am most proud of in the assignment
 
@@ -104,4 +109,5 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
