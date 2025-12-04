@@ -38,13 +38,6 @@ Lab 10
 # What I am most proud of in the assignment
 
 I am most proud of successfully integrating data analysis with visual presentation, specifically through the creation of the key distribution charts using Matplotlib. I was the most difficult having to bridge the gap between pandas and matplotlib, and that why I truly believe it was the most impressive, especially as I tried to run it the first time and there were major problems in my code and i was luckily able to find them in time.
-
- ==========================================
-# PART 2: Pandas Analysis Logic
-# ==========================================
-
-class TuneAnalyzer:
-    """Handles loading data into Pandas and running queries."""
     
     def __init__(self, db_name: str = "tunes.db"):
         self.conn = sqlite3.connect(db_name)
@@ -138,6 +131,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
