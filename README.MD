@@ -1,6 +1,11 @@
 # Data Centric Programming Assignment 2025
 
 - [Assignment Brief](assignment.md)
+Module: Data Centric Programming DATA2005
+
+Course: TU850/2 – Data Science & AI
+
+Lecturer: Bryan Duggan
 
 Name: Prosper Umeh
 
@@ -91,6 +96,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
