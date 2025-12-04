@@ -2,14 +2,14 @@
 
 - [Assignment Brief](assignment.md)
 
-Name:
+Name: Prosper Umeh
 
-Student Number: 
+Student Number: C24365571
 
 # Screenshots
 
 # Description of the project
-
+This project uses real world data and applications to simulate a small library manager to rescan folders and populate the database, show statistcs, search titles, makes graphs and plot points and list tunes by book within the ABC format.
 # Instructions for use
 
 # How it works:
@@ -104,3 +104,4 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
