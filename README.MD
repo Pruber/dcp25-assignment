@@ -37,7 +37,47 @@ Lab 10
 
 # What I am most proud of in the assignment
 
-Bla bla bla
+ ==========================================
+# PART 2: Pandas Analysis Logic
+# ==========================================
+
+class TuneAnalyzer:
+    """Handles loading data into Pandas and running queries."""
+    
+    def __init__(self, db_name: str = "tunes.db"):
+        self.conn = sqlite3.connect(db_name)
+
+    def load_data(self) -> pd.DataFrame:
+        """Loads entire SQL table into a DataFrame."""
+        query = "SELECT * FROM tunes"
+        return pd.read_sql(query, self.conn)
+    
+    def get_tunes_by_book(self, df: pd.DataFrame, book_id: int) -> pd.DataFrame:
+        """Filter dataframe by book ID."""
+        return df[df['book_id'] == book_id]
+    
+    def get_tunes_by_rhythm(self, df: pd.DataFrame, rhythm: str) -> pd.DataFrame:
+        """Filter dataframe by rhythm type."""
+        # Case insensitive string contains
+        return df[df['rhythm'].str.contains(rhythm, case=False, na=False)]
+    
+    def search_tunes(self, df: pd.DataFrame, search_term: str) -> pd.DataFrame:
+        """Search titles for a specific term."""
+        return df[df['title'].str.contains(search_term, case=False, na=False)]
+
+    def plot_key_distribution(self, df: pd.DataFrame) -> None:
+        """Optional: Visualise the keys used in the books."""
+        if df.empty:
+            print("No data to plot.")
+            return
+
+        counts = df['key_sig'].value_counts().head(10) # Show top 10
+        counts.plot(kind='bar', color='skyblue')
+        plt.title('Distribution of Musical Keys')
+        plt.xlabel('Key')
+        plt.ylabel('Count')
+        plt.tight_layout()
+        plt.show()
 
 # What I learned
 
@@ -96,6 +136,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
