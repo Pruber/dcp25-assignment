@@ -19,8 +19,7 @@ This project uses real world data and applications to simulate a small library m
 | Files | Source |
 |-----------|-----------|
 | abc_parser_app.py | Self written |
-| setup_data.py | Modified from [reference]() |
-| test.py | From [reference]() |
+| setup_data.py | Self Written |
 
 # References
 
@@ -109,6 +108,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
