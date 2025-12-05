@@ -81,10 +81,9 @@ I am most proud of successfully integrating data analysis with visual presentati
 
 # What I learned
 
-Bla bla bla
+I learned how to seperate responsibilities into distinct files (setup_data.py for creation, abc_parser_app.py for execution), demonstrating good application and helping the actual content of the files be managable showing me how great managing stuff is especially in code. I earned to read unstructured text files (the ABC notation), extract specific pieces of information (T:, R:, K:), and transform that raw data into a structured format (a Python dictionary/SQL record). And I learned the importance of user interactions and visualisatins which was achieved with the use of matplotlib ( to convert maningful numbers into plots making it easier to understand) snd building a menu interface making it easier for the user.
 
-
-# Headings
+Headings
 ## Headings
 #### Headings
 ##### Headings
@@ -101,8 +100,7 @@ public void render()
 	ui.text(text, x + width * 0.5f, y + height * 0.5f);
 }
 ```
-
-So is this without specifying the language:
+:
 
 ```
 public void render()
@@ -136,6 +134,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
