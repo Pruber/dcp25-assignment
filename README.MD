@@ -20,6 +20,8 @@ Student Number: C24365571
 This project uses real world data and applications to imulate a small library manager to rescan folders and populate the database, show statistcs, search titles, makes graphs and plot points and list tunes by book within the ABC format.
 # Instructions for use
 
+Make sure to run the setup_data.py first(source venv/bin/activate)(python setup_data.py) in your terminal as thr program needs fake folders and sample tunes to have data in the database to anaylyze. Now we run the main program(python abc_parser_app.py) and when the menu base which gives you alot of amazing options to choose from f=like plots or book titles.
+
 # How it works:
 
 # List of files in the project
@@ -134,6 +136,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
