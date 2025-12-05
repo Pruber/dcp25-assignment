@@ -14,6 +14,8 @@ Student Number: C24365571
 # Screenshots
 
 ![An image](images/Screenshot%202025-12-05%2005.20.28.png)
+![An image](images/Figure_1.png)
+
 
 
 # Description of the project
@@ -134,6 +136,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
